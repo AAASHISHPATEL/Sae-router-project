@@ -13,13 +13,13 @@ import FAQs from './components/FAQs.jsx'
 
 const router =createBrowserRouter([
   {
-    path: '/Sae-router-project', element: <App/>,
+    path: '', element: <App/>,
     children: [
       {
-        path:"home", element:<Home/>
+        path:"/", element:<Home/>
       },
       {
-        path:'sign-in', element:<Signin/>, children: [{path:'login', element: <Login/>}]
+        path:'sign-in', element:<Signin/> 
       },
       {
         path: 'login',element: <Login/>
@@ -40,6 +40,8 @@ const router =createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+   
    <RouterProvider  router={router}/>
+   
   </React.StrictMode>,
 )
