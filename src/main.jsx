@@ -13,10 +13,10 @@ import FAQs from './components/FAQs.jsx'
 
 const router =createBrowserRouter([
   {
-    path: '/Sae-router-project/', element: <App/>,
+    path: '/Sae-router-project', element: <App/>,
     children: [
       {
-        path:"", element:<Home/>
+        path:"home", element:<Home/>
       },
       {
         path:'sign-in', element:<Signin/>, children: [{path:'login', element: <Login/>}]
