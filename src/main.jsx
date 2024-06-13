@@ -40,7 +40,7 @@ import FAQs from './components/FAQs.jsx'
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path="/Sae-router-project/" element={<App/>}>
-      <Route path=' ' element={<Home/>} />
+      <Route path='' element={<Home/>} />
       <Route path='sign-in' element={<Signin/>} />
       <Route path='login' element={<Login/>} />
       <Route path='Your_card' element={<Your_card/>} />

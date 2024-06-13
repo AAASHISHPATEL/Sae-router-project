@@ -15,7 +15,7 @@ function Header() {
         </Link>
 
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><NavLink to=' ' className={({isActive})=>             
+          <li><NavLink to='' className={({isActive})=>             
          `nav-link px-2 ${isActive ? "text-secondary":"text-white" }`}>Home</NavLink></li>
 
           <li><NavLink to="Contact" className={({isActive})=>`nav-link px-2 ${isActive? "text-secondary":"text-white"}`}>Contact</NavLink></li>
