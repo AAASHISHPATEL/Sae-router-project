@@ -18,11 +18,13 @@ function Header() {
           <li><NavLink to='' className={({isActive})=>             
          `nav-link px-2 ${isActive ? "text-secondary":"text-white" }`}>Home</NavLink></li>
 
+         <li><NavLink to="Your_card" className={({isActive}) => `nav-link px-2 ${isActive ? "text-secondary": "text-white"}`}>Your Cart</NavLink></li>
+
           <li><NavLink to="Contact" className={({isActive})=>`nav-link px-2 ${isActive? "text-secondary":"text-white"}`}>Contact</NavLink></li>
 
           <li><NavLink to="FAQs" className={({isActive}) =>`nav-link px-2 ${isActive ? "text-secondary" :" text-white"}` }>FAQs</NavLink></li>
 
-          <li><NavLink to="Your_card" className={({isActive}) => `nav-link px-2 ${isActive ? "text-secondary": "text-white"}`}>Your Cart</NavLink></li>
+          
 
           <li><NavLink to="#" className={({isActive})=> `nav-link px-2 ${!isActive? "text-secondary": "text-white"}`}>About</NavLink></li>
         </ul>

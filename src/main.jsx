@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import {Route,createRoutesFromElements, RouterProvider,createBrowserRouter } from 'react-router-dom'
+import {Routes,Route,createRoutesFromElements, RouterProvider,createBrowserRouter } from 'react-router-dom'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Signin from './components/signin.jsx'
@@ -48,6 +48,7 @@ const router=createBrowserRouter(
       <Route path='FAQs' element={<FAQs/>} />
     </Route>
   )
+  
 )
 
 
